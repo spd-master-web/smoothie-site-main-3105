@@ -1,0 +1,117 @@
+* {
+  /* border: solid 1px #ff0000; */
+}
+
+/* MOBILE FIRST CONCEPT */
+html {
+  /* the base font size <p>,... */
+  font-size: 10px;
+}
+/* media queries */
+/* the value defines a breakpoint */
+@media (min-width: 420px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  /* propery: value; */
+  /* values can have units or be unitless */
+  margin: 0;
+
+  /*  colors
+      HEX: 0,1,2,3,4,5,6,a,b,d,e,f
+      #RRGGBB
+      #RRGGBBAA
+      shorthand
+      #RGB
+      #RGBA
+
+      KEYWORD: red, green, blue,
+  */
+  /* background-color: #111111;
+  /* typography */
+  /* font-family: Arial, Helvetica, sans-serif;
+  color: #eeeeee;
+} */
+/* */
+  MAIN ELEMENTS
+*/
+/* multiple selectors are divided by comma */
+/* header, main, footer, aside {
+  padding: 50px;
+
+  border-style: solid;
+  border-width: 5px;
+} */
+
+/* media query */
+/* that only applies if the screen is smaller than 800px */
+/* @media (max-width: 800px) {
+  header, main, footer, aside {
+    padding: 10px;
+  }
+} */
+
+
+/* header {
+  /* border: solid 10px #ff0000;
+  border: solid 10px #f00; */
+  /* border-color: red;
+} */ */
+
+/* main {
+  border-color:green;
+} */
+
+/* footer {
+  border-color: blue;
+} */
+
+/* aside {
+  border-color:pink;
+} */
+/* test of specificity */
+/* ul {
+  border: 3px solid pink;
+} */
+
+/*
+  NAVIGATION
+*/
+nav {
+}
+/* when the selectors are listed without the comma
+we are selecting the children of the previous selector  */
+/* nav ul {
+  border: 3px solid yellow;
+} */
+
+/*
+  TYPOGRAPHIC ELEMENTS
+*/
+h1 {
+
+}
+h2 {
+
+}
+p {
+
+}
+/* link */
+/* a {
+  color: #ff0000;
+} */
+/* image */
+/* img {
+  /* responsive image trick */
+  /* width: 100%;
+  height: auto;
+} */ */

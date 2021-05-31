@@ -1,0 +1,111 @@
+/* new layout */
+html {
+
+}
+
+header, main, footer, aside {
+    padding: 50px;
+
+    border-width: 5px;
+  }
+
+body  {
+    color:#62bfad;
+    text-align: left;
+}
+
+header {
+    background-color: black;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #faf7e8;
+
+}
+
+footer {
+    background-color: black;
+    color: #62bfad;
+}
+
+h1, h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#p1 {
+    text-align: center;
+}
+
+a.btn1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+   
+    text-decoration: none; 
+  
+    background: #62bfad;
+  
+    padding: 0.5%;
+    
+    outline: none; 
+    text-align: center;
+    border-radius: 20px;
+    
+}
+    
+    a.btn1:hover { background: rgb(232,95,76); } 
+ 
+    a.btn2 {
+    
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff; 
+       
+        text-decoration: none; 
+      
+        background: #62bfad;
+      
+        padding: 0.5%;
+        
+        outline: none; 
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+        
+        a.btn2:hover { background: rgb(232,95,76); } 
+
+        aside {
+            background-color: #62bfad;
+        }
+
+
+        @media (max-width: 800px) {
+            header, main, footer, aside {
+              padding: 10px;
+            }
+          }
+
+          img {
+            
+            width: 100%;
+            height: auto;
+          }
+
+          @media (max-width: 800px) {
+  header, main, footer, aside {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 420px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 800px) {
+    html {
+      font-size: 18px;
+    }
+  }

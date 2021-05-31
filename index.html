@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoothie Site</title>
+  <meta name="description" content="The smoothest smooth-ies by SPD.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+
+  <header>
+    <!-- logo, website name, slogan -->
+    <h2>Smooth-ie Site</h2>
+    <p id="p1">The smoothest smooth-ies.</p>
+    <a href="#" class="btn1">RECIPIES</a>
+    <a href="#" class="btn2">ABOUT THIS PAGE</a>
+    <!-- navigation -->
+    <nav>
+      <!-- ul>li*2>a -->
+      <!-- <ul>
+      unordered or ordered list can only contain <li> a adirect child 
+        <li><a href="#">Recipies</a></li>
+        <li><a href="#">About this page</a></li>
+        <li><a href="#">Recipies</a></li>
+        <li><a href="#">About this page</a></li>
+        <li><a href="#">Recipies</a></li>
+        <li><a href="#">About this page</a></li>
+      </ul> -->
+    </nav>
+  </header>
+
+  <main>
+    <!-- ONLY ONE <main> and <h1> ELEMENT PER PAGE -->
+    <!-- main content of this page (f.ex. blog post, blog list,...)
+         https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+    -->
+    <h1>The smoothest smooth-ies</h1>
+
+    <section id="recipies">
+      <h2>Recipies</h2>
+      <article>
+        <!-- recipe -->
+        <h3>2minute breakfast smoothie</h3>
+        <p>Whizz up a low fat breakfast smoothie in no time. Use banana with other soft fruit, plus honey for a little sweetness and oats for slow-release fuel.</p>
+        <img src="images/nutriciously-29n-T1iVCXs-unsplash.jpg" alt="Low fat breakfast smoothie.">
+        <p>Photograph by <a href="https://unsplash.com/@nutriciously?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nutriciously</a></p>
+        <!-- Description list
+             https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl
+        -->
+        <dl>
+          <dt>Preparation time</dt>
+          <dd>2 min</dd>
+          <dt>Difficulty</dt>
+          <dd>Easy Peasy</dd>
+          <dt>Servings</dt>
+          <dd>2 servings</dd>
+        </dl>
+
+        <h4>Ingredients</h4>
+        <ul>
+          <li>1 banana</li>
+          <li>1 tbsp porridge oats</li>
+          <li>80g soft fruit (whatever you have – strawberries, blueberries, and mango all work well)</li>
+          <li>150ml milk</li>
+          <li>1 tsp honey</li>
+          <li>1 tsp vanilla extract</li>
+        </ul>
+
+        <h4>Method</h4>
+        <ol>
+          <li>
+            <h5>Step 1</h5>
+            <p>Put all the ingredients in a blender and whizz for 1 min until smooth.</p>
+          </li>
+          <li>
+            <h5>Step 2</h5>
+            <p>Pour the banana oat smoothie into two glasses to serve.</p>
+          </li>
+        </ol>
+      </article>
+      <article>
+        <!-- recipe -->
+        <h3>Berryfast smoothie</h3>
+        <p>Make the most of the berry season with a glass of fruity goodness</p>
+        <img src="images/claudia-soares-ewOrvEa87j4-unsplash.jpg" alt="Low fat breakfast smoothie.">
+        <p>Photograph by <a href="https://unsplash.com/@claudia_soares?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Claudia Soares</a></p>
+        <dl>
+          <dt>Preparation time</dt>
+          <dd>5 min</dd>
+          <dt>Difficulty</dt>
+          <dd>Easy Peasy</dd>
+          <dt>Servings</dt>
+          <dd>1 serving</dd>
+        </dl>
+
+        <h4>Ingredients</h4>
+        <ul>
+          <li>small ripe banana</li>
+          <li>sbout 140g blackberries, blueberries, raspberries or strawberries (or use a mix), plus extra to serve</li>
+          <li>apple juice or mineral water, optional</li>
+          <li>runny honey , to serve</li>
+        </ul>
+
+        <h4>Method</h4>
+        <ol>
+          <li>
+            <h5>Step 1</h5>
+            <p>Slice the banana into your blender or food processor and add the berries of your choice. Whizz until smooth. With the blades whirring, pour in juice or water to make the consistency you like. Toss a few extra fruits on top, drizzle with honey and serve.</p>
+          </li>
+        </ol>
+      </article>
+    </section>
+
+  
+
+  </main>
+
+  <footer>
+  <section id="about">
+      <h2>About this page</h2>
+      <!-- p*3>lorem -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid unde aut aliquam deserunt praesentium excepturi repudiandae, magni eveniet, pariatur distinctio incidunt fuga tenetur dolorem minus velit ullam beatae dolor.</p>
+      <p>Minima eum illum non repellat eligendi, hic recusandae blanditiis velit dolor ad illo numquam nihil, aliquid quasi corrupti exercitationem mollitia iste. Vel illum dolorem dignissimos enim neque vitae dicta sapiente?</p>
+      <p>Perspiciatis voluptas nisi, amet exercitationem commodi ipsam eius magni aperiam possimus quis error illo cupiditate molestias necessitatibus sunt debitis natus architecto dolores harum. Quos, temporibus cum minus nulla aut quis!</p>
+    </section>
+  </footer>
+
+  <aside>
+    <!-- sidebar with additional info (f.ex. latest, most popular blog posts) -->
+  </aside>
+
+
+  <!--
+    non semantic elements:
+    <div></div> - block level element
+    <span></span> - inline element
+
+    semantic elements:
+    block level elements
+    <main><header><footer><aside><article><section><nav><h1><p>
+    inline elements
+    <a><strong><em>
+  -->
+</body>
+</html>
